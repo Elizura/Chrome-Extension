@@ -1,0 +1,18 @@
+{
+  "manifest_version": 2,
+  "name": "Leetcode",
+  "version": "1.0.0",
+  "content_scripts": [
+    {
+      "matches": [
+        "https://*/*"
+      ],
+      "js": [
+        "script.js"
+      ],
+      "css": [
+        "styles.css"
+      ]
+    }
+  ]
+}
